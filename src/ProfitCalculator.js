@@ -19,7 +19,6 @@ const ProfitCalculator = () => {
   const netProfit = parsedBoundary * 26 - parsedMonthlyAmortization;
   const ROI = parsedCashout / netProfit;
 
-  // bg-[url('./assets/car.png')]  bg-cover bg-no-repeat
   return (
     <>
       <div className=" h-auto  bg-[#E4E4E4] con p-10  relative  flex flex-col justify-center items-center px-5 lg:h-screen ">
