@@ -19,7 +19,7 @@ const ProfitCalculator = () => {
 
   return (
     <div className="p-8  h-screen bg-black  ">
-      <div className="flex flex-col justify-center border-2 bg-[#dfdfdf] p-8 mt-20 gap-4">
+      <div className="flex flex-col justify-center border-2 bg-[#dfdfdf] p-8 mt-20 gap-4 rounded-md">
         <p className="text-4xl font-bold mb-2">GRAB COMPUTATION ROI</p>
         <div className="mb-4">
           <label
@@ -83,7 +83,7 @@ const ProfitCalculator = () => {
           </p>
           <div className="flex gap-2 text-2xl font-bold text-gray-600">
             <p className=" underline">ROI: {isFinite(ROI) ? ROI : "N/A"}</p>
-            <span> MONTHS</span>
+            <span> Months</span>
           </div>
         </div>
       </div>
